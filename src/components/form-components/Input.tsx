@@ -1,7 +1,7 @@
 interface InputProps {
-    type: string,
-    name: string,
-    placeholder?: string,
+    type: string
+    name: string
+    placeholder?: string
 }
 
 function Input({ type, name, placeholder }: InputProps) {

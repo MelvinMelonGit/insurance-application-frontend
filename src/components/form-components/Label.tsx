@@ -1,8 +1,8 @@
 import type { ReactNode } from "react"
 
 interface LabelProps {
-    labelText: string,
-    children: ReactNode,
+  labelText: string
+  children: ReactNode
 }
 
 function Label({ labelText, children }: LabelProps) {

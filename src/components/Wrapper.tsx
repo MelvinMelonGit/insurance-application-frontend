@@ -1,7 +1,7 @@
 import type { ReactNode } from "react"
 
 interface WrapperProps {
-    children: ReactNode
+  children: ReactNode
 }
 
 function Wrapper({children}: WrapperProps) {
