@@ -1,17 +1,19 @@
 import Card from "@/components/layout-components/Card"
 import Wrapper from "@/components/layout-components/Wrapper"
 import Title from "@/components/typography-components/Title"
-import { Link } from "react-router"
+import { Link, useParams } from "react-router"
 
-function ErrorPage() {
+function ThankYouPage() {
+  const { id } = useParams()
+
   return (
     <Wrapper>
       <Card>
-        <Title>You have reached an Error page!</Title>
+        <Title>Thanks for your submission { id }!</Title>
         <Link to="/" className="btn btn-primary">Go Home</Link>
       </Card>
     </Wrapper>
   )
 }
 
-export default ErrorPage
+export default ThankYouPage
