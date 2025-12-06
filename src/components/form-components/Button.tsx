@@ -7,7 +7,7 @@ interface ButtonProps {
 
 function Button({ disabled, children }: ButtonProps) {
   return (
-    <button className="btn btn-primary w-full" type="submit" disabled={disabled}>
+    <button className="btn btn-primary w-full mt-8" type="submit" disabled={disabled}>
         {disabled ? "Loading..." : children }
     </button>
   )

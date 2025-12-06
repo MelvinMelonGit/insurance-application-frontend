@@ -11,7 +11,7 @@
       "password": "u2"
     }
   ],
-  "profile": [
+  "userProfile": [
     {
       "id": "1",
       "name": "Lucas"
@@ -19,6 +19,31 @@
     {
       "id": "2",
       "name": "Patrice"
+    }
+  ],
+  "userApplication": [
+    {
+      "id": "",
+      "fullname": "r",
+      "dateOfBirth": "r",
+      "memberId": "r",
+      "policyNumber": "r",
+      "contactNumber": "r",
+      "email": "r@gmail.com",
+      "address": "r",
+      "hospitalName": "g",
+      "doctorName": "g",
+      "doctorLicense": "g",
+      "hospitalAddress": "g",
+      "hospitalContactNumber": "g",
+      "department": "g",
+      "category": "g",
+      "dateOfService": "g",
+      "diagnosis": "g",
+      "totalBilled": "g",
+      "reason": "g",
+      "certified": "g",
+      "authorized": "g"
     }
   ]
 }

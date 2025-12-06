@@ -7,7 +7,7 @@ interface WrapperProps {
 function Wrapper({children}: WrapperProps) {
   return (
     <main data-theme="corporate" className="bg-gray-100 min-h-screen grid place-content-center">
-        {children}
+      {children}
     </main>
   )
 }
