@@ -1,0 +1,13 @@
+interface InputProps {
+    type: string,
+    name: string,
+    placeholder?: string,
+}
+
+function Input({ type, name, placeholder }: InputProps) {
+  return (
+    <input type={type} name={name} placeholder={placeholder} className="input w-full" />
+  )
+}
+
+export default Input
