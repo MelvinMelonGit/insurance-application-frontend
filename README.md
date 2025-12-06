@@ -1,3 +1,18 @@
+# To install dependences
+```bash
+npm i
+```
+
+# To run the React app
+```bash
+npm run dev
+```
+
+# To run the fake db server
+```bash
+npx json-server db.json
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
