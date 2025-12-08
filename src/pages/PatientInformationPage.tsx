@@ -32,7 +32,7 @@ function PatientInformationPage() {
 
   return (
     <Wrapper>
-      <Card width="xl">
+      <Card>
         <Title>Fill In Patient Information</Title>
         <form onSubmit={handleSubmit}>  
             <Grid cols="2">

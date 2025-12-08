@@ -28,7 +28,7 @@ function LoginPage() {
   return (
     <Wrapper>
       <Card>
-        <Title>Welcome back to FastClaims</Title>
+        <Title>Welcome back!</Title>
           <form onSubmit={handleSubmit}>
             <Grid>
               <Label labelText="Username">

@@ -6,7 +6,7 @@ interface InputProps {
 
 function Input({ type, name, placeholder }: InputProps) {
   return (
-    <input type={type} name={name} placeholder={placeholder} className="input w-full" />
+    <input type={type} name={name} placeholder={placeholder} className="input w-100 border-0 rounded-lg" />
   )
 }
 
