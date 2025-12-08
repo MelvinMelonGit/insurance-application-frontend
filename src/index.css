@@ -1,4 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-    themes: light --default, corporate;
+    themes: light --default;
+}
+* {
+    font-family: "Google Sans Flex", sans-serif;
 }

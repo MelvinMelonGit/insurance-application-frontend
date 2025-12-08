@@ -1,3 +1,4 @@
+import LinkButton from "@/components/form-components/LinkButton"
 import Card from "@/components/layout-components/Card"
 import Grid from "@/components/layout-components/Grid"
 import Wrapper from "@/components/layout-components/Wrapper"
@@ -6,7 +7,7 @@ import useFetch from "@/hooks/useFetch"
 import { userProfileStore } from "@/stores/userProfileStore"
 import { useAtom } from "jotai"
 import { useEffect } from "react"
-import { Link, useParams } from "react-router"
+import { useParams } from "react-router"
 
 function DashboardPage() {
   const { id } = useParams()
@@ -26,8 +27,8 @@ function DashboardPage() {
       <Card>
         <Title>Welcome { userProfile.name }!</Title>
         <Grid cols="2">
-          <Link to={`/create-application/${id}`} className="btn btn-primary">Create Application</Link>
-          <Link to="/" className="btn btn-tertiary">View Applications</Link>
+          <LinkButton to={`/create-application/${id}`}>Create Application</LinkButton>
+          <LinkButton to="/">View Applications</LinkButton>
         </Grid>
       </Card>
     </Wrapper>

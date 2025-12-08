@@ -1,7 +1,8 @@
+import LinkButton from "@/components/form-components/LinkButton"
 import Card from "@/components/layout-components/Card"
 import Wrapper from "@/components/layout-components/Wrapper"
 import Title from "@/components/typography-components/Title"
-import { Link, useParams } from "react-router"
+import { useParams } from "react-router"
 
 function ThankYouPage() {
   const { id } = useParams()
@@ -10,7 +11,7 @@ function ThankYouPage() {
     <Wrapper>
       <Card>
         <Title>Thanks for your submission { id }!</Title>
-        <Link to="/" className="btn btn-primary">Go Home</Link>
+        <LinkButton to="/">Go Home</LinkButton>
       </Card>
     </Wrapper>
   )

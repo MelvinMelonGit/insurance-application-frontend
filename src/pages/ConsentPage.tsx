@@ -41,7 +41,7 @@ function ConsentPage() {
 
   return (
     <Wrapper>
-      <Card width="xl">
+      <Card>
         <Title>Terms and Conditions</Title>
         <form onSubmit={handleSubmit}>  
             <Grid>

@@ -32,7 +32,7 @@ function ApplicationReasonPage() {
 
   return (
     <Wrapper>
-      <Card width="xl">
+      <Card>
         <Title>Fill In Application Reason</Title>
         <form onSubmit={handleSubmit}>  
             <Grid cols="2">

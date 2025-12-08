@@ -8,7 +8,7 @@ interface LabelProps {
 function Label({ labelText, children }: LabelProps) {
   return (
     <label className="grid gap-1">
-      <span className="font-semibold">{labelText}</span>
+      <span className="font-medium">{labelText}</span>
       { children }
     </label>
   )
