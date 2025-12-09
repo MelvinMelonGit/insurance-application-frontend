@@ -45,7 +45,7 @@ function HospitalInformationPage() {
             <Label labelText="Doctor license">
                 <Input type="text" name="doctorLicense" placeholder="Doctor License" />
             </Label>
-            <Label labelText="Hospital name">
+            <Label labelText="Hospital address">
                 <Input type="text" name="hospitalAddress" placeholder="Hospital address" />
             </Label>
             <Label labelText="Hospital contact number">
