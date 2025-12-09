@@ -27,7 +27,7 @@ function DashboardPage() {
       <Card>
         <Title>Welcome { userProfile.name }!</Title>
         <Grid cols="2">
-          <LinkButton to={`/create-application/${id}`}>Create Application</LinkButton>
+          <LinkButton to={`/patient-information/${id}`}>Create Application</LinkButton>
           <LinkButton to="/">View Applications</LinkButton>
         </Grid>
       </Card>

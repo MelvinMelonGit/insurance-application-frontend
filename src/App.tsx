@@ -15,7 +15,7 @@ function App() {
       <Route path='*' element={<ErrorPage />} />
       <Route index element={<LoginPage />} />
       <Route path="/dashboard/:id" element={<DashboardPage />} />
-      <Route path="/create-application/:id" element={<PatientInformationPage />} />
+      <Route path="/patient-information/:id" element={<PatientInformationPage />} />
       <Route path="/hospital-info/:id" element={<HospitalInformationPage />} />
       <Route path="/application-reason/:id" element={<ApplicationReasonPage />} />
       <Route path="/consent/:id" element={<ConsentPage />} />

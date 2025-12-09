@@ -43,7 +43,7 @@ function PatientInformationPage() {
                 <Input type="text" name="dateOfBirth" placeholder="Date of birth" />
             </Label>
             <Label labelText="Insurance member ID">
-                <Input type="text" name="memberId" placeholder="Insurance Member ID" />
+                <Input type="text" name="memberId" placeholder="Insurance member ID" />
             </Label>
             <Label labelText="Policy number">
                 <Input type="text" name="policyNumber" placeholder="Policy number" />
@@ -51,8 +51,8 @@ function PatientInformationPage() {
             <Label labelText="Contact number">
                 <Input type="text" name="contactNumber" placeholder="Contact number" />
             </Label>
-            <Label labelText="Email address">
-                <Input type="email" name="email" placeholder="Email address" />
+            <Label labelText="Email">
+                <Input type="email" name="email" placeholder="Email" />
             </Label>
             <Label labelText="Address">
                 <Input type="text" name="address" placeholder="Address" />
