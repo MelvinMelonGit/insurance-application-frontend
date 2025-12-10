@@ -36,20 +36,20 @@ function ApplicationReasonPage() {
         <Title>Fill In Application Reason</Title>
         <form onSubmit={handleSubmit}>  
             <Grid cols="2">
-            <Label labelText="Category">
-                <Input type="text" name="category" placeholder="Category" />
+            <Label labelText="Category" htmlFor="category">
+                <Input type="text" name="category" id="category" placeholder="Category" />
             </Label>
-            <Label labelText="Date of service">
-                <Input type="text" name="dateOfService" placeholder="Date of service" />
+            <Label labelText="Date of service" htmlFor="dateOfService">
+                <Input type="date" name="dateOfService" id="dateOfService" value="2018-07-22"/>
             </Label>
-            <Label labelText="Diagnosis">
-                <Input type="text" name="diagnosis" placeholder="Diagnosis" />
+            <Label labelText="Diagnosis" htmlFor="diagnosis">
+                <Input type="text" name="diagnosis" id="diagnosis" placeholder="Diagnosis" />
             </Label>
-            <Label labelText="Total billed">
-                <Input type="text" name="totalBilled" placeholder="Total billed" />
+            <Label labelText="Total billed" htmlFor="totalBilled">
+                <Input type="number" name="totalBilled" id="totalBilled" placeholder="Total billed" />
             </Label>
-            <Label labelText="Reason">
-                <Input type="text" name="reason" placeholder="Reason" />
+            <Label labelText="Reason" htmlFor="reason">
+                <Input type="text" name="reason" id="reason" placeholder="Reason" />
             </Label>
             </Grid>
             <Button>Next</Button>

@@ -45,11 +45,11 @@ function ConsentPage() {
         <Title>Terms and Conditions</Title>
         <form onSubmit={handleSubmit}>  
             <Grid>
-            <Label labelText="I certify this information is true.">
-                <Input type="text" name="certified" placeholder="Certified" />
+            <Label labelText="I certify this information is true." htmlFor="certified" checkbox>
+                <Input type="checkbox" name="certified" id="certified" checkbox/>
             </Label>
-            <Label labelText="I authorize release of medical information for application.">
-                <Input type="text" name="authorized" placeholder="Authorized" />
+            <Label labelText="I authorize release of medical information for application." htmlFor="authorized" checkbox>
+                <Input type="checkbox" name="authorized" id="authorized" checkbox/>
             </Label>
             </Grid>
             <Button disabled={loading}>Submit</Button>
