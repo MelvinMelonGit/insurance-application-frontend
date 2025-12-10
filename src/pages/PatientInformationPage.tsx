@@ -36,26 +36,26 @@ function PatientInformationPage() {
         <Title>Fill In Patient Information</Title>
         <form onSubmit={handleSubmit}>  
             <Grid cols="2">
-            <Label labelText="Full name">
-                <Input type="text" name="fullname" placeholder="Full name" />
+            <Label labelText="Full name" htmlFor="fullname">
+                <Input type="text" name="fullname" id="fullname" placeholder="Full name" />
             </Label>
-            <Label labelText="Date of birth">
-                <Input type="text" name="dateOfBirth" placeholder="Date of birth" />
+            <Label labelText="Date of birth" htmlFor="dateOfBirth">
+                <Input type="date" name="dateOfBirth" id="dateOfBirth" value="2018-07-22" />
             </Label>
-            <Label labelText="Insurance member ID">
-                <Input type="text" name="memberId" placeholder="Insurance member ID" />
+            <Label labelText="Insurance member ID" htmlFor="memberId">
+                <Input type="text" name="memberId" id="memberId" placeholder="Insurance member ID" />
             </Label>
-            <Label labelText="Policy number">
-                <Input type="text" name="policyNumber" placeholder="Policy number" />
+            <Label labelText="Policy number" htmlFor="policyNumber">
+                <Input type="text" name="policyNumber" id="policyNumber" placeholder="Policy number" />
             </Label>
-            <Label labelText="Contact number">
-                <Input type="text" name="contactNumber" placeholder="Contact number" />
+            <Label labelText="Contact number" htmlFor="contactNumber">
+                <Input type="tel" name="contactNumber" id="contactNumber" placeholder="Contact number" />
             </Label>
-            <Label labelText="Email">
-                <Input type="email" name="email" placeholder="Email" />
+            <Label labelText="Email" htmlFor="email">
+                <Input type="email" name="email" id="email" placeholder="Email" />
             </Label>
-            <Label labelText="Address">
-                <Input type="text" name="address" placeholder="Address" />
+            <Label labelText="Address" htmlFor="address">
+                <Input type="text" name="address" id="address" placeholder="Address" />
             </Label>
             </Grid>
             <Button>Next</Button>

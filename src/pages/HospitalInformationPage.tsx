@@ -36,23 +36,23 @@ function HospitalInformationPage() {
         <Title>Fill In Hospital Information</Title>
         <form onSubmit={handleSubmit}>  
             <Grid cols="2">
-            <Label labelText="Hospital name">
-                <Input type="text" name="hospitalName" placeholder="Hospital name" />
+            <Label labelText="Hospital name" htmlFor="hospitalName">
+                <Input type="text" name="hospitalName" id="hospitalName" placeholder="Hospital name" />
             </Label>
-            <Label labelText="Doctor name">
-                <Input type="text" name="doctorName" placeholder="Doctor name" />
+            <Label labelText="Doctor name" htmlFor="doctorName">
+                <Input type="text" name="doctorName" id="doctorName" placeholder="Doctor name" />
             </Label>
-            <Label labelText="Doctor license">
-                <Input type="text" name="doctorLicense" placeholder="Doctor License" />
+            <Label labelText="Doctor license" htmlFor="doctorLicense">
+                <Input type="text" name="doctorLicense" id="doctorLicense" placeholder="Doctor License" />
             </Label>
-            <Label labelText="Hospital address">
-                <Input type="text" name="hospitalAddress" placeholder="Hospital address" />
+            <Label labelText="Hospital address" htmlFor="hospitalAddress">
+                <Input type="text" name="hospitalAddress" id="hospitalAddress" placeholder="Hospital address" />
             </Label>
-            <Label labelText="Hospital contact number">
-                <Input type="text" name="hospitalContactNumber" placeholder="Hospital contact number" />
+            <Label labelText="Hospital contact number" htmlFor="hospitalContactNumber">
+                <Input type="tel" name="hospitalContactNumber" id="hospitalContactNumber" placeholder="Hospital contact number" />
             </Label>
-            <Label labelText="Department">
-                <Input type="text" name="department" placeholder="Department" />
+            <Label labelText="Department" htmlFor="department">
+                <Input type="text" name="department" id="department" placeholder="Department" />
             </Label>
             </Grid>
             <Button>Next</Button>

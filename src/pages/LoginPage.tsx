@@ -31,11 +31,11 @@ function LoginPage() {
         <Title>Welcome back!</Title>
           <form onSubmit={handleSubmit}>
             <Grid>
-              <Label labelText="Username">
-                <Input type="text" name="username" placeholder="Username" />
+              <Label labelText="Username" htmlFor="username">
+                <Input type="text" name="username" id="username" placeholder="Username" />
               </Label>
-              <Label labelText="Password">
-                <Input type="password" name="password" placeholder="Password" />
+              <Label labelText="Password" htmlFor="password">
+                <Input type="password" name="password" id="password" placeholder="Password" />
               </Label>
             </Grid>
             <Button disabled={loading}>Login</Button>
