@@ -14,7 +14,7 @@ test('happy flow', async ({ page }) => {
   await page.getByRole('link', { name: 'Create Application' }).click()
 
   // Patient Information Page
-  await expect(page.getByRole('heading', { name: 'Fill In Patient Information' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Fill In Policy Information' })).toBeVisible()
   await page.getByLabel('Full name').fill('full name')
   await page.getByLabel('Date of birth').fill('2018-07-22')
   await page.getByLabel('Insurance member ID').fill('Insurance member ID')
